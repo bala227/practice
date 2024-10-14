@@ -135,7 +135,7 @@ const App = () => {
       {!gameStarted ? ( // Check if game has started
         <div>
           <h2>Start Game</h2>
-          <button onClick={startGame}>Start</button>
+          <button onClick={startGame} className='startbutton'>Start</button>
         </div>
       ) : (
         <>
